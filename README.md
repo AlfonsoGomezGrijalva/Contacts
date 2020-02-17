@@ -9,7 +9,7 @@ This project was created in C # .Net core 3 and Visual Studio so, to run it you 
 
 3) With postman (https://www.postman.com/downloads/) or a similar application, try to get the client list in this 2 ways:
 
-   - http://localhost:30000/api/contact 
-   - http://localhost:30000/api/contact/{lastName}
+   - http://localhost:30000/api/contacts 
+   - http://localhost:30000/api/contacts/{lastName}
 
-    example: http://localhost:30000/api/contact/smith
+    example: http://localhost:30000/api/contacts/smith
