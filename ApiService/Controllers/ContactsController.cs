@@ -14,12 +14,12 @@ namespace ApiService.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ContactController : ControllerBase
+    public class ContactsController : ControllerBase
     {
-        private readonly ILogger<ContactController> _logger;
+        private readonly ILogger<ContactsController> _logger;
         private readonly IContactService _clientService;
 
-        public ContactController(ILogger<ContactController> logger, IContactService clientService)
+        public ContactsController(ILogger<ContactsController> logger, IContactService clientService)
         {            
             _logger = logger;
             _clientService = clientService;
