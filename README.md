@@ -2,7 +2,7 @@
 
 Service that returns a list of contacts stored in a Json file, filtered by the last name. 
 
-This project was created in C # .Net core 3 and Visual Studio so, to run it you must search for the .sln file and open it.
+This project was created in C # .Net core 3.
 1) Clone the repository in your local machine
 
 2) Build and run the project
